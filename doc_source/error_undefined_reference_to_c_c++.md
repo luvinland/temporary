@@ -32,3 +32,5 @@ C/C++ 파일 간 함수 호출 시 undefined reference to Error 발생.
    |wmfwparse.h|wmfwparse.cpp|passthru.c|
    |:---:|:---:|:---:|
    |![image](https://user-images.githubusercontent.com/26864945/69855149-32056a00-12ce-11ea-94d8-a816ea16bd1f.png)|![image](https://user-images.githubusercontent.com/26864945/69854630-e605f580-12cc-11ea-8fc3-0b19cccee59f.png)|![image](https://user-images.githubusercontent.com/26864945/69854715-1e0d3880-12cd-11ea-96ab-74f5be5141d9.png)|
+   
+   ![image](https://user-images.githubusercontent.com/26864945/69856912-0edcb980-12d2-11ea-9ebb-a4aa3ce610ec.png)
