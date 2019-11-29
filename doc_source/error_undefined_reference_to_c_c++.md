@@ -10,9 +10,9 @@ C/C++ 파일 간 함수 호출 시 undefined reference to Error 발생.
    + > _위의 이유로 C 코드내에서 CPP 코드에 작성한 함수에 접근시 아래 처리를 하지 않으면 undefined reference to Error 발생함._
 - 예시
 
-   wmfwparse.h|wmfwparse.cpp|passthru.c
-   ---|---|---
-   ![image](https://user-images.githubusercontent.com/26864945/69854582-c66ecd00-12cc-11ea-950f-13e7cde8a17a.png)|![image](https://user-images.githubusercontent.com/26864945/69854630-e605f580-12cc-11ea-8fc3-0b19cccee59f.png)|![image](https://user-images.githubusercontent.com/26864945/69854715-1e0d3880-12cd-11ea-96ab-74f5be5141d9.png)
+   |wmfwparse.h|wmfwparse.cpp|passthru.c|
+   |---|---|---|
+   |![image](https://user-images.githubusercontent.com/26864945/69854582-c66ecd00-12cc-11ea-950f-13e7cde8a17a.png)|![image](https://user-images.githubusercontent.com/26864945/69854630-e605f580-12cc-11ea-8fc3-0b19cccee59f.png)|![image](https://user-images.githubusercontent.com/26864945/69854715-1e0d3880-12cd-11ea-96ab-74f5be5141d9.png)|
 
    ![image](https://user-images.githubusercontent.com/26864945/69854940-b7d4e580-12cd-11ea-96f4-b471ac556aaa.png)
 
@@ -29,6 +29,6 @@ C/C++ 파일 간 함수 호출 시 undefined reference to Error 발생.
    ```
 - 예시
 
-   wmfwparse.h|wmfwparse.cpp|passthru.c
-   ---|---|---
-   ![image](https://user-images.githubusercontent.com/26864945/69855149-32056a00-12ce-11ea-94d8-a816ea16bd1f.png)|![image](https://user-images.githubusercontent.com/26864945/69854630-e605f580-12cc-11ea-8fc3-0b19cccee59f.png)|![image](https://user-images.githubusercontent.com/26864945/69854715-1e0d3880-12cd-11ea-96ab-74f5be5141d9.png)
+   |wmfwparse.h|wmfwparse.cpp|passthru.c|
+   |---|---|---|
+   |![image](https://user-images.githubusercontent.com/26864945/69855149-32056a00-12ce-11ea-94d8-a816ea16bd1f.png)|![image](https://user-images.githubusercontent.com/26864945/69854630-e605f580-12cc-11ea-8fc3-0b19cccee59f.png)|![image](https://user-images.githubusercontent.com/26864945/69854715-1e0d3880-12cd-11ea-96ab-74f5be5141d9.png)|
