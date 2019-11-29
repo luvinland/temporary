@@ -7,7 +7,7 @@ C/C++ 파일 간 함수 호출 시 undefined reference to Error 발생.
 - CPP 파일은 C++ 언어로 컴파일 됨.
 - C 파일에서는 클래스 정의 불가.
 - **`같은 이름의 함수라도 C/C++ 에 따라 어셈블러에서 다르게 변환됨.`**
-   + > _위의 이유로 C 코드내에서 CPP 코드에 작성한 함수에 접근시 아래 처리를 하지 않으면 undefined reference to Error 발생함._
+   > _위의 이유로 C 코드내에서 CPP 코드에 작성한 함수에 접근시 아래 처리를 하지 않으면 undefined reference to Error 발생함._
 - 예시
 
    |wmfwparse.h|wmfwparse.cpp|passthru.c|
