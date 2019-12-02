@@ -8,6 +8,7 @@ goto문 사용시 error: jump to label, crosses initialization of Error 발생.
 - goto문 아래의 변수 선언 부를 별도의 영역으로 처리하여 해결 가능함.
    + 단순히 { } 중괄호를 이용한 영역 구분으로도 해결 가능함.
 - 예시
+
    |Error 발생|수정함|
    |:---:|:---:|
    |![image](https://user-images.githubusercontent.com/26864945/69923738-87b65e00-14ea-11ea-8bc7-9bda016a8780.png)|![image](https://user-images.githubusercontent.com/26864945/69923766-b0d6ee80-14ea-11ea-8658-95ef3ec5bddf.png)|
